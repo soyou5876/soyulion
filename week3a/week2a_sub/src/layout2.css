@@ -54,7 +54,7 @@ article {
     background-image: url(../img/layout02_02.png);
 }
 
-.right_bottom {
+.right_bot {
     background-image: url(../img/layout02_03.png);
 }
 
@@ -125,7 +125,7 @@ footer>div {
         background-image: url(../img/layout02_03.png);
     }
 
-    .right_bottom {
+    .right_bot {
         background-image: url(../img/layout02_02.png);
     }
 
@@ -176,7 +176,7 @@ footer>div {
         background-image: url(../img/layout02_01.png);
     }
     
-    .right_bottom {
+    .right_bot {
         background-image: url(../img/layout02_03.png);
     }
 
