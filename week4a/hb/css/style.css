@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+*{margin:0; padding: 0; box-sizing: border-box;}
+li{list-style: none;}
+a{text-decoration: none; color: inherit;}
+img{ max-width: 100%;}
+button{cursor: pointer;}
+table{width: 100%; border-collapse: collapse;}
+body{background: #fff; color: #333;}
+
+.inner{width: 1200px; margin: auto;}
+
+header{height: 70px; color: #F5E4EA; background-color: #444C61; padding-top: 10px; padding-left: 10px;}
+header h1{width: 56px; height: 53px; color: #F5E4EA;}
+header h1 a{display: block; left: 10px;}
+
+nav{position: absolute; top: 10px; right:200px; z-index: 9999;}
+nav>ul{display: flex;}
+nav>ul>li>a{display: block; width: 120px; color: #F5E4EA; text-align: center; font-weight: bold;
+padding: 10px;}
+nav>ul>li:hover>a{color: #444C61; background: #F5E4EA;}
+.sub{display: none;}
+.sub li a{background: #000000; display: block; padding: 10px; text-align: center; font-size: 14px;}
+.sub li a:hover{background: #F5E4EA; color: #444C61;}
+
+.slide{height: 350px;  position:relative; overflow: hidden;}
+.slide ul{position: absolute; top: 0; height: 1050px; z-index: 1;}
+.slide ul li{width: 1200px; height: 350px;}
+.slide ul li a{ display: block; height: 100%;}
+.slide ul li.s1{background: url(../assets/week4_s1.png) no-repeat center/cover;}
+.slide ul li.s2{background: url(../assets/week4_s2.jpg) no-repeat center/cover;}
+.slide ul li.s3{background: url(../assets/week4_s3.jpg) no-repeat center/cover;}
+
+.con{height: 280px; background-color: blue; display: flex;}
+.con article{width: 400px; height: 100%;}
+.con1{background-color: #F5E4EA; color: #F5E4EA;}
+.con1 .tabmenu li{width: 100px; display: inline-block; color: #444C61;}
+.con1 .tabmenu li.on{background: #444C61; color: #F5E4EA;}
+.con1 .tabmenu li a{display: block; text-align: center; padding: 10px 0; font-weight: bold;}
+.con .tabcon{background: #F5E4EA; height: 240px; padding: 10px;}
+
+.notice th{text-align: left; color: #444C61;}
+.notice td{color: #444C61;}
+.notice tr{border-bottom: 1px dashed #444C61;}
+.notice a{display: block; padding: 8px;}
+.con .gall{padding-top: 30px; display: none;}
+.gall ul{text-align: center;}
+.gall ul li{width: 120px; height: 100px; display: inline-block;}
+
+.con2{background-color: #165894;}
+.con2 a{display: block; height: 100%; background: url(../assets/week4_tabcon1.jpg) center/cover;
+text-align: center; overflow: hidden;}
+.con2 h2{color: #fff; padding-top: 30%;}
+.con3{background-color: #160032;}
+.con3 a{display: block; height: 100%; background: url(../assets/week4_tabcon2.jpg) center/cover;
+text-align: center; overflow: hidden;}
+.con3 h2{color: #fff; padding-top: 30%;}
+
+footer{height: 100px; background-color:#444C61; display: flex; position: relative;}
+footer ul li{width: 429px; height: 19px;  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+footer h3 a{color:#9D9D9D; font-size: 40px; height: 53px; padding-left: 40px; line-height: 100px;}
+
+.popup{position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+text-align: center; padding: 20px; width: 500px; background: #F5E4EA; width: 500px; 
+z-index: 9999; display: none;}
+.popup h2{color: #fff; background: #444C61; margin-bottom: 20px; top: 0; height: 60px;}
+.popup .text{margin: 20px 0;}
+.popup button{text-align: right;}
