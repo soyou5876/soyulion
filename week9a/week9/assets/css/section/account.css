@@ -1,0 +1,99 @@
+.header .vector {
+    width: 6px;
+    height: 12px;
+    margin-bottom: 10px;
+
+}
+
+.header {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+       align-items: center;
+}
+
+.header h3 {
+    font-size: 34px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.header .profile {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.profile p {
+    font-size: 22px;
+    font-weight: 200;
+    margin-bottom: 10px;
+       align-items: center;
+}
+
+.profile h3 {
+    font-size: 17px;
+    margin-bottom: 40px;
+       align-items: center;
+}
+.main{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.main .info {
+    margin-top: 20px;
+    background-color: #d6d4d4;
+    width: 354px;
+    height: 60px;
+    display: flex;
+}
+
+.label {
+    width: 24px;
+    height: 24px;
+    margin-left: 40px;
+}
+
+.main p {
+    font-size: 17px;
+    margin: 0 auto;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rv {
+    width: 14px;
+    height: 14px;
+    margin-right: 20px;
+}
+
+.footer {
+    width: 415px;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    margin-top: 850px;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    color: #8c8c8c;
+    font-weight: 400;
+}
+
+.footer-item img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 4px;
+}

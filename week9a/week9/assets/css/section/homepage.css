@@ -1,0 +1,276 @@
+img {
+    width: 30px;
+    height: 30px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    /* 양쪽 끝으로 이미지 배치 */
+    align-items: center;
+    /* 세로 중앙 정렬 */
+    padding: 10px 20px;
+    /* 상하 좌우 여백 */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.menu,
+.noti {
+    width: 24px;
+    /* 아이콘 크기 조절 */
+    height: auto;
+}
+
+.header {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.header p {
+    font-size: 34px;
+    font-weight: bold;
+    text-align: left;
+    /* 텍스트 왼쪽 정렬 */
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.header .box {
+    width: 354px;
+    height: 125px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    /* 없애거나 조정 */
+    background-color: #258B66;
+    color: #fff;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.header .box h3 {
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+.header .innerbox {
+    display: flex;
+    justify-content: space-between;
+    /* 왼쪽에 숫자, 오른쪽에 버튼 */
+    align-items: center;
+}
+
+
+.header .innerbox p {
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0;
+    color: #fff;
+}
+
+.minibox {
+    background-color: #fff;
+    color: #258B66;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+
+.sec1 .text {
+    justify-content: space-between;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.sec1 .text p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.sec1 .text h3 {
+    font-size: 22px;
+    font-weight: 300;
+    color: #FE555D;
+}
+
+.grade {
+    display: flex;
+
+    margin-left: 10px;
+}
+
+.gold-card {
+    width: 124px;
+    height: 170px;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    position: relative;
+    /* 이미지 배치를 위해 필요 */
+    background: linear-gradient(180deg, #F0C735 0%, #D98F39 100%);
+    overflow: hidden;
+    margin-right: 5px;
+}
+
+.gold-card p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.gold-card h1 {
+    font-size: 14px;
+    font-weight: normal;
+    opacity: 0.7;
+    margin-top: 5px;
+}
+
+.gold-card img {
+    position: absolute;
+    width: 80px;
+    height: 100px;
+}
+
+.silver-card {
+    width: 124px;
+    height: 170px;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    position: relative;
+    /* 이미지 배치를 위해 필요 */
+    background: linear-gradient(180deg, #CAC9C9 0%, #979797 100%);
+    overflow: hidden;
+    margin-right: 5px;
+}
+
+.silver-card p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.silver-card h1 {
+    font-size: 14px;
+    font-weight: normal;
+    opacity: 0.7;
+    margin-top: 5px;
+}
+
+.silver-card img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.platinum-card {
+    width: 124px;
+    height: 170px;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    position: relative;
+    /* 이미지 배치를 위해 필요 */
+    background: linear-gradient(180deg, #BA8DF3 0%, #615EE2 100%);
+    overflow: hidden;
+    margin-right: 5px;
+}
+
+.platinum-card p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.platinum-card h1 {
+    font-size: 14px;
+    font-weight: normal;
+    opacity: 0.7;
+    margin-top: 5px;
+}
+
+.platinum-card img {
+    position: absolute;
+    width: 80px;
+    height: 100px;
+}
+
+.sec2 {
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.guide-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.guide-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.text {
+    flex: 1;
+}
+
+.title {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    margin: 0 0 5px 0;
+}
+
+.desc {
+    font-size: 13px;
+    color: #666;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.circle-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    flex-shrink: 0;
+}
+
+.footer {
+    width: 415px;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    position: absolute;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    color: #8c8c8c;
+    font-weight: 400;
+}
+
+.footer-item img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 4px;
+}
