@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/Section/Header';
+import Homepage from './components/Main section/Homepage';
+import BlogPage from './components/Main section/BlogPage';
+import MenuPage from './components/Main section/Menu'; 
+import { useLocation } from 'react-router-dom';
+import Apparel from './components/Main section/Apparel'
+import Checkout from './components/Main section/Checkout'
+import Search from './components/Main section/Search'
+import Contact from './components/Main section/Contact'
 
-function App() {
+const Layout = () => {
+  const location = useLocation();
+  const hideHeaderRoutes = ['/menu', '/search']; 
+  const showHeader = !hideHeaderRoutes.includes(location.pathname);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {showHeader && <Header />} 
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/menu" element={<MenuPage />} />
+         <Route path="/apparel" element={<Apparel />} />
+         <Route path="/checkout" element={<Checkout />} /> 
+         <Route path="/search" element={<Search />} /> 
+         <Route path="/contact" element={<Contact />} />
+
+      </Routes>
+    </>
   );
-}
+};
+
+const App = () => {
+  return (
+    <Router>
+      <Layout />
+    </Router>
+  );
+};
 
 export default App;
