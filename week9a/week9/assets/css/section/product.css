@@ -1,0 +1,92 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+.nav p {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.close img {
+  width: 24px;
+  height: 24px;
+  margin-left: 50px;
+}
+
+/* 자산 헤더 */
+.header .sec1 p {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.header .sec1 h4 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.header .sec1 h3 {
+  color: green;
+  margin-top: 4px;
+}
+
+/* Current Plans */
+.sec2 {
+  margin-top: 20px;
+}
+
+.gold {
+  background: linear-gradient(to right, #f9aa33, #f57c00);
+  padding: 20px;
+  border-radius: 16px;
+  color: white;
+  position: relative;
+}
+
+.gold img {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  width: 48px;
+  height: 48px;
+}
+
+.gold_text {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* History */
+.main h3 {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.rp1, .rp2, .rp3, .rp4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 16px;
+}
+
+.rp1 p, .rp2 p, .rp3 p, .rp4 p {
+  font-weight: bold;
+  margin: 0;
+}
+
+.rp1_text h2 {
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.rp1_text p {
+  font-size: 12px;
+  color: gray;
+  margin: 0;
+}
